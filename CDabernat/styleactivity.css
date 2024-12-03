@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0; /* Light text color for dark background */
+    background-color: #1a1a2e; /* Dark background */
+}
+
+
+header {
+    background-color: #09090f;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+main#activities {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.activity {
+    background-color: #1a1a2e;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-left: 5px solid #0077cc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.activity h2 {
+    font-size: 1.5rem;
+    color: #0077cc;
+    margin-bottom: 0.5rem;
+}
+
+.activity p {
+    font-size: 1rem;
+    color: #fff;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    background-color: #0077cc; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+.button:hover {
+    background-color: #005fa3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.button:active {
+    background-color: #004f8a; /* Even darker shade on click */
+    transform: scale(0.98); /* Slightly shrink on click */
+}
